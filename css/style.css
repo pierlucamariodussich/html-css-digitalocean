@@ -2,10 +2,22 @@
   border: 1px solid black;
   height: 50px
 }
+ /* font */
+ .f-new{
+   font-size:12px;
+   font-weight: 400;
+ }
+
+.f-nav{
+  font-size:14px;
+  font-weight: 500;
+}
+
+/* button */
 
 
 
-
+.btn-primary{}
 
 /* color */
 
@@ -18,7 +30,7 @@
 }
 
 .darkblu{
-  color:#031b4e
+  color:#031b4e;
 }
 
 .blu{
@@ -75,6 +87,37 @@
   padding: 0 5px;
   vertical-align: middle;
 }
+/* navbar */
+
+
+
+#menu:focus, #menu:hover{
+background-color: transparent;
+}
+
+#menu >span:hover{
+  color:#016bff;
+
+}
+
+nav .btn-default{
+  border: 1px solid #016bff;
+  color: #016bff;
+  font-weight: bolder;
+  }
+
+nav .btn-primary{
+    background-color: #016bff;
+    font-weight: bolder;
+    }
+
+
+ .container-fluid > .row > [class*="col-"] > .content{
+     padding: 10px 0;
+     line-height: 20px;
+     vertical-align: middle;
+    }
+
 
 
 
