@@ -132,11 +132,15 @@ button.btn-primary{
 }
 /* header  */
 
-
+.navbar-fixed-top{
+  background-color: white;
+  box-shadow: 2px 2px 2px #000000;
+}
 /* newsbar */
 
 .news_bar > .container-fluid > .row{
   border-bottom: 1px solid  #f3f5f9;
+
 }
 
 .news_bar > .container-fluid > .row > [class*="col-"]> .content{
@@ -151,7 +155,7 @@ button.btn-primary{
   background-color: #00d7d2;
   border-radius: 5px;
   text-align: center;
-  padding: 0 5px;
+  padding: 0 px;
   vertical-align: middle;
 }
 /* navbar */
@@ -290,7 +294,7 @@ span.terms{
 /* section deploy */
 
 
-#deploy h2 {
+ #deploy h2 {
   font-weight: 600;
   padding-bottom: 10px;
 }
@@ -346,8 +350,82 @@ a#select{
 
 .empty > hr {
   border-color: transparent;
-  margin-bottom: 50p
+
 }
+
+/* >>>> design for developpers >>>> */
+
+#design{
+
+    background-color: #f3f5f9;
+}
+
+
+ #design h2 {
+  font-weight: 600;
+  padding-bottom: 10px;
+}
+
+#design h6 {
+ font-weight: 300;
+ padding: 20px  0;
+}
+
+#design span{
+
+  font-weight: 200;
+  font-size: 1.2em;
+}
+
+#design img{
+   width: 90%;
+}
+
+.circle{
+  padding: 50px;
+}
+
+.circle > i{
+  padding-right: 20px
+}
+
+/* >>>> built for business >>>> */
+
+#built h2 {
+ font-weight: 600;
+ padding-bottom: 10px;
+ padding-top: 20px;
+}
+
+#built h5{
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10px 0;
+}
+
+#built h6 {
+font-weight: 300;
+padding: 20px  0;
+}
+
+
+#built p{
+  font-size: 14px;
+  font-weight: 200;
+  padding-bottom: 10px;
+}
+#built span{
+
+ font-weight: 200;
+ font-size: 1.2em;
+}
+
+.d_list_w{
+  padding-right: 80px;
+}
+
+
+
 
 
 
@@ -378,6 +456,14 @@ a#select{
 
   .form_marg {
     margin-bottom: 100px;
+  }
+
+  #built .d_list_cont {
+    padding: 15px 5px;
+    text-align: center;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
   }
 
 
@@ -411,6 +497,14 @@ a#select{
   .d_w{
     width: 100%;
   }
+  #built .d_list_cont {
+    padding: 15px 5px;
+    text-align: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
 
 }
 @media screen and (max-width:750px){
@@ -463,9 +557,18 @@ a#select{
     margin-bottom: 50px;
   }
 
-  .d_list_cont{
+   #deploy .d_list_cont {
     padding: 15px 5px;
     text-align: center;
+  }
+
+
+  #built .d_list_cont {
+    padding: 15px 5px;
+    text-align: center;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
   }
 
 
