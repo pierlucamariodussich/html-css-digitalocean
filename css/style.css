@@ -1,6 +1,9 @@
 .debug .content{
   border: 1px solid black;
-  height: 50px
+
+}
+*{
+  font-family: 'Poppins', sans-serif;
 }
  /* font */
  .f-new{
@@ -16,24 +19,39 @@
 /* position */
 
 
-.absolute_c_c{
-  position: absolute;
-  top:50%;
-  left:50%;
-  transform: translate(-50%,-50%);
-  ;
-}
-.realtive_c_l{
+.relative_c_x{
   position: relative;
   top:50%;
+  left:50%;
+  transform: translateX(-50%);
+  ;
+}
+.relative_x_y{
+  position: relative;
+  top:35%;
+}
+
+.relative_y{
+  position: relative;
   left:10%;
+
 
 }
 /* button */
 
 
+button.btn-default{
+  border: 1px solid #016bff;
+  color: #016bff;
+  font-weight: 400;
+  }
 
-.btn-primary{}
+button.btn-primary{
+    background-color: #016bff;
+    color:white;
+    font-weight: 500;
+    }
+
 
 /* color */
 
@@ -65,6 +83,16 @@
 .marg_0{
   margin: 0;
 }
+
+.marg_t_100{
+  margin-top: 100px;
+}
+
+.marg_t_150{
+  margin-top: 150px;
+
+}
+
 /* padding */
 
 .pad_0{
@@ -74,6 +102,7 @@
 .pad_l_15{
   padding-left: 15px;
 }
+
 
 
 /* tutte le hr  */
@@ -120,16 +149,7 @@ background-color: transparent;
 
 }
 
-nav .btn-default{
-  border: 1px solid #016bff;
-  color: #016bff;
-  font-weight: bolder;
-  }
 
-nav .btn-primary{
-    background-color: #016bff;
-    font-weight: bolder;
-    }
 
 
  .container-fluid > .row > [class*="col-"] > .content{
@@ -140,50 +160,101 @@ nav .btn-primary{
 
 /* hero  */
 
+.hero > .container-fluid > .row {
+  height: 600px;
+  text-align: center;
+}
+
 .hero{
   background-image: url(../img/bg_hero.svg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position:  center;
+  background-position:  bottom;
   transform: translateZ(0);
-  height: 90vh;
+
 }
 
 
-.con_h{
- width: 70%;
+.con_w{
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+
 }
 
 
 .h1_font{
   font-size: 5rem;
-  ;
   padding-bottom: 15px;
+  font-weight: 600;
+  text-align: left;
+
 }
 
 .h4_font{
-  font-weight: 200;
+  font-weight: 100;
   line-height: 30px;
+  text-align: left;
+  font-size: 2rem;
+}
+
+.h3_font{
+  font-weight:600;
+  font-size: 15px;
 }
 
 .cont_box{
-  border-radius: 5px;
-  background-color: white;
-  width: 80%;
-
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  background-color:#f3f5f9;
+  padding-top: 0px;
+  width: 400px;
 }
 
 .form_title{
-  background-color:#f3f5f9;
+  padding-top: 0px;
+  padding-bottom: 10px;
 }
-
-
 
 .cont_form{
-  padding-top:0px;
-
-  width: 100%;
+  padding: 20px 25px;
+  background-color:white;
 }
+.hero .btn-primary{
+  width: 100%;
+  padding: 20px 20px;
+}
+
+.btn-google{
+  margin-right:30px;
+  padding: 20px 30px;
+}
+
+.hero .btn-default.btn-github{
+  padding: 10px 15px;
+}
+.hero .btn-default.btn-google{
+  padding: 10px 55px;
+}
+span.terms{
+
+  padding-top: 40px;
+  font-size: 10px;
+}
+
+ .terms > a {
+   text-decoration: none;
+   color: white;
+ }
+
+
+
+
+
+
+
 
 
 @media screen and (min-width:1170px){
@@ -191,16 +262,82 @@ nav .btn-primary{
 }
 
 @media screen and (min-width:970px)and (max-width:1169px){
+  .con_w{
+    width: 50%;
+  }
+
+  .h1_font{
+    text-align: center;
+  }
+
+  .h4_font{
+    text-align: center;
+  }
+  .marg_t_100{
+    margin-top: 30px;
+
+  }
+  .marg_t_150{
+    margin-top: 50px;
+  }
+
+  .form_marg {
+    margin-bottom: 100px;
+  }
 
 }
 @media screen and (min-width:750px)and (max-width:969px){
   .news_bar > .container-fluid > .row{
     border-bottom: none;
   }
+  .con_w{
+    width: 80%;
+  }
+
+  .h1_font{
+    text-align: center;
+  }
+
+  .h4_font{
+    text-align: center;
+  }
+  .marg_t_100{
+    margin-top: 30px;
+
+  }
+  .form_marg {
+    margin-bottom: 100px;
+  }
+  .marg_t_150{
+    margin-top: 50px;
+  }
+
 }
 @media screen and (max-width:749px){
   .news_bar > .container-fluid > .row{
     border-bottom: none;
+  }
+
+  .con_w{
+    width: 80%;
+  }
+
+  .h1_font{
+    text-align: center;
+  }
+
+  .h4_font{
+    text-align: center;
+  }
+  .marg_t_100{
+    margin-top: 30px;
+
+  }
+  .form_marg {
+    margin-bottom: 100px;
+  }
+  .marg_t_150{
+    margin-top: 50px;
   }
 
 }
