@@ -249,6 +249,26 @@ span.terms{
    color: white;
  }
 
+/* main */
+
+/* sction solution */
+
+#solution {
+  background-color: #f3f5f9;
+}
+
+.s_title{
+ padding: 30px 0;
+
+}
+
+.s_link{
+ padding-top: 20px;
+ padding-bottom:40px;
+
+}
+
+/* section deploy */
 
 
 
