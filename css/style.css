@@ -1,7 +1,12 @@
+.debug .content{
+  border: 1px solid black;
+
+}
 footer .content{
   border: 1px solid white;
 
 }
+
 *{
   font-family: 'Poppins', sans-serif;
 }
