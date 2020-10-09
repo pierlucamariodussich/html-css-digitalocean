@@ -1,5 +1,5 @@
-.debug .content{
-  border: 1px solid black;
+footer .content{
+  border: 1px solid white;
 
 }
 *{
@@ -482,6 +482,42 @@ padding: 20px  0;
 
 }
 
+/* love */
+#love img{
+  width: 90%;
+}
+#love .circle{
+  padding-top: 20px;
+  padding-bottom: 100px;
+}
+
+/* cta */
+
+#cta{
+  background-color: ##0069ff;
+  background-image: url(https://prismic-io.s3.amazonaws.com/www-static/b4ba92a9-0956-484b-9a3f-68ef4d550fd4_bg-home-cta.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+#cta .content{
+  line-height: 64px;
+  height: 64px;
+
+}
+
+#cta .btn{
+padding: 20px 20px;
+font-weight: 600;
+}
+
+/* footer */
+footer{
+  background-color: hsl(220,95%,8%)
+}
 
 
 @media screen and (min-width:1170px){
@@ -558,6 +594,10 @@ padding: 20px  0;
     margin-left: auto;
     margin-right: auto;
   }
+  #cta .content{
+    text-align: center;
+
+  }
 
 
 }
@@ -624,7 +664,10 @@ padding: 20px  0;
     margin-left: auto;
     margin-right: auto;
   }
+  #cta .content{
+    text-align: center;
 
+  }
 
 
 
