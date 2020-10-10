@@ -288,8 +288,15 @@ background-color: transparent;
 }
 
 .btn-google{
-  margin-right:30px;
+  margin-right:10px;
   padding: 20px 30px;
+}
+
+.w_80{
+   width: 80%;
+}
+.w_10{
+   width: 10%;
 }
 
 .hero .btn-default.btn-github{
@@ -364,7 +371,7 @@ span.terms{
 
 .d_list li a{
   text-decoration: none;
-  padding: 20px 20px;
+  padding: 5px 5px;
   color:#5b6987;
 }
 
@@ -699,6 +706,8 @@ footer{
 
 }
 @media screen and (max-width:750px){
+
+
   .news_bar > .container-fluid > .row{
     border-bottom: none;
   }
@@ -736,6 +745,13 @@ footer{
     display: inline;
     border-left: none;
     border-bottom: 2px solid #b7babe;
+    font-size: 16px;
+
+
+  }
+
+  #deploy a{
+    padding: 5px 5px;
   }
 
   #deploy .list_margin{
