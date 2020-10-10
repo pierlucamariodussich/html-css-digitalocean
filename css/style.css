@@ -52,12 +52,44 @@ button.btn-default{
   font-weight: 400;
   }
 
+  button.btn-default:hover{
+    border: 1px solid #016bff;
+    color: white;
+    background-color: #016bff;
+    font-weight: 400;
+    }
+
 button.btn-primary{
     background-color: #016bff;
     color:white;
     font-weight: 500;
-    }
+}
 
+button.btn-primary:hover{
+    background-color:#031b4e ;
+}
+
+button.btn-special{
+  border: 1px solid #016bff;
+  color: #016bff;
+  font-weight: 400;
+  background-color: white;
+  }
+
+button.btn-special:hover{
+  background-color:#031b4e;
+  color:white;
+  font-weight: 500;
+}
+
+.over:hover{
+  text-decoration:none;
+  color:#016bff;
+}
+.over_white:hover{
+  text-decoration:none;
+  color:white;
+}
 
 /* color */
 
@@ -568,6 +600,10 @@ footer{
 
  #copy .content{
    line-height: 50px;
+ }
+
+ #copy i{
+   padding-left: 15px;
  }
 
 
